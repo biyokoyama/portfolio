@@ -12,6 +12,9 @@
       <nuxt-link to="/about" class="navbar-item" :class="{'is-active': $route.path === '/about'}">
         About
       </nuxt-link>
+      <nuxt-link to="/works" class="navbar-item" :class="{'is-active': $route.path === '/works'}">
+        Works
+      </nuxt-link>
     </div>
   </nav>
 </template>
