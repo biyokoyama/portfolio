@@ -15,6 +15,11 @@
                 <GraphArticle />
               </div>
             </div>
+            <div class="tile is-parent">
+              <div class="tile is-child box">
+                <CartArticle />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -25,10 +30,12 @@
 <script>
 import SpaPracticeArticle from '~/components/works/SpaPracticeArticle.vue'
 import GraphArticle from '~/components/works/GraphArticle.vue'
+import CartArticle from '~/components/works/CartArticle.vue'
 export default {
   components: {
     SpaPracticeArticle,
-    GraphArticle
+    GraphArticle,
+    CartArticle
   }
 }
 </script>
