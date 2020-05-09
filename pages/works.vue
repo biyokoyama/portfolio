@@ -7,9 +7,12 @@
             Works
           </h1>
           <div class="tile is-ancestor">
-            <div class="tile is-parent">
+            <div class="tile is-parent is-vertical">
               <div class="tile is-child box">
                 <SpaPracticeArticle />
+              </div>
+              <div class="tile is-child box">
+                <GraphArticle />
               </div>
             </div>
           </div>
@@ -21,9 +24,11 @@
 
 <script>
 import SpaPracticeArticle from '~/components/works/SpaPracticeArticle.vue'
+import GraphArticle from '~/components/works/GraphArticle.vue'
 export default {
   components: {
-    SpaPracticeArticle
+    SpaPracticeArticle,
+    GraphArticle
   }
 }
 </script>
