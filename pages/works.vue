@@ -9,6 +9,9 @@
           <div class="tile is-ancestor">
             <div class="tile is-parent is-vertical">
               <div class="tile is-child box">
+                <WikiVueTypescriptPractice />
+              </div>
+              <div class="tile is-child box">
                 <SpaPracticeArticle />
               </div>
               <div class="tile is-child box">
@@ -28,11 +31,13 @@
 </template>
 
 <script>
+import WikiVueTypescriptPractice from '~/components/works/WikiVueTypescriptPractice.vue'
 import SpaPracticeArticle from '~/components/works/SpaPracticeArticle.vue'
 import GraphArticle from '~/components/works/GraphArticle.vue'
 import CartArticle from '~/components/works/CartArticle.vue'
 export default {
   components: {
+    WikiVueTypescriptPractice,
     SpaPracticeArticle,
     GraphArticle,
     CartArticle
