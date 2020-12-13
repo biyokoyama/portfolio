@@ -50,11 +50,9 @@
           2020年5月現在で5年目。
         </p>
         <p>
-          Ruby(Rails) / PHP / Java<br>
-          JavaScript / Vue.js / Node.js<br>
-          MySQL / PostgreSQL / Redis<br>
-          Nginx<br>
-          AWS
+          Ruby, JavaScript, PHP, Java<br>
+          Ruby on Rails, Vue.js<br>
+          AWS (VPC, EC2, CodeDeploy, RDS, S3, ElastiCache, ELB, Route53, CloudFront, SES, SQS, SNS, Lambda, CloudWatch, CloudFormation, IAM)
         </p>
       </div>
     </div>
